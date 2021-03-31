@@ -109,13 +109,10 @@ namespace Lab4Bonus
         static void Main(string[] args)
         {
             TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
-
             bool done = false;
             while (!done)
             {
-
                 string word = "";
-
                 bool valid = false;
                 while (!valid)
                 {
@@ -130,33 +127,14 @@ namespace Lab4Bonus
                     }
                     else
                     {
-
                         Regex abcSpace = new Regex(@"^[a-z\s]+$");
                         if (abcSpace.IsMatch(wordLower))
                         {
                             valid = true;
                             string[] wordArray = word.Split();
+                            string[] cases = new string[wordArray.Length];
 
                             // this part is to identify the casing for each word
-                            string[] cases = new string[wordArray.Length];
-                            //for (int i = 0; i < wordArray.Length; i++)
-                            //{
-                            //    string toLower = wordArray[i].ToLower();
-                            //    string toTitle = myTI.ToTitleCase(toLower);
-                            //    if (wordArray[i] == toTitle)
-                            //    {
-                            //        cases[i] = "title";
-                            //    }
-                            //    else if(wordArray[i].ToLower() == wordArray[i])
-                            //    {
-                            //        cases[i] = "lower";
-                            //    }
-                            //    else if(wordArray[i].ToUpper() == wordArray[i])
-                            //    {
-                            //        cases[i] = "upper";
-                            //    }
-                            //}
-
                             cases = LogCasing(cases, wordArray, myTI);
 
                             word = "";
@@ -164,7 +142,6 @@ namespace Lab4Bonus
                             {
                                 wordArray[i] = Piggify(wordArray[i]);
                                 wordArray[i] = FixCasing(wordArray[i], cases, i, myTI);
-
 
                                 if (i == wordArray.Length - 1)
                                 {
@@ -182,25 +159,13 @@ namespace Lab4Bonus
                             Console.WriteLine("Sorry, that was not a valid input. Please try again");
                         }
                     }
-
                 }
                 // if start with vowel, just add "way" on end
-
-
-
-
-
-
-
                 Console.WriteLine($"\n{word}\n");
-
                 done = Continue();
-
             }
             Console.Clear();
-
             Console.WriteLine("Goodbye! Have a beautiful time!");
-
         }
     }
 }
