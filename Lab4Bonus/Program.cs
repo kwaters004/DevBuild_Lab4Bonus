@@ -127,7 +127,7 @@ namespace Lab4Bonus
                     }
                     else
                     {
-                        Regex abcSpace = new Regex(@"^[a-z\s]+$");
+                        Regex abcSpace = new Regex(@"^[a-z]+\s[a-z]+$");
                         if (abcSpace.IsMatch(wordLower))
                         {
                             valid = true;
