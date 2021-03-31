@@ -1,0 +1,13 @@
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.exe
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.deps.json
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.runtimeconfig.json
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.runtimeconfig.dev.json
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.dll
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\bin\Debug\netcoreapp3.1\Lab4Bonus.pdb
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.AssemblyInfoInputs.cache
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.AssemblyInfo.cs
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.csproj.CoreCompileInputs.cache
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.dll
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.pdb
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.genruntimeconfig.cache
+C:\Users\kwaters\dev\Lab4Bonus\Lab4Bonus\obj\Debug\netcoreapp3.1\Lab4Bonus.csprojAssemblyReference.cache
